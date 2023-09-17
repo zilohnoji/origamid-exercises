@@ -1,0 +1,155 @@
+:root {
+  --background-color: #f7f7f7;
+  --color-red: #ee2211;
+  --paragraph-size: 20px;
+  --subtitle-content-size: 64px;
+  --gray-text: #c6c6c6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0 5rem;
+  background-color: var(--background-color);
+}
+
+span {
+  font-size: var(--paragraph-size);
+}
+
+/* Configurações Gerais */
+
+.top {
+  margin: 0rem 0rem 4rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-navbar {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  width: 35rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-item {
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.content-main {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+.description {
+  text-align: right;
+  width: 26rem;
+  font-size: var(--paragraph-size);
+}
+
+.bike-main {
+  width: 100%;
+}
+
+.sub-content {
+  gap: 20px;
+  display: flex;
+  padding: 30px;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  width: 6rem;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: var(--color-red);
+}
+
+.subtitle-box {
+  text-align: end;
+  align-items: center;
+  display: flex;
+}
+.subtitle-content {
+  color: var(--gray-text);
+  font-size: var(--subtitle-content-size);
+}
+
+.info {
+  gap: 20px;
+  height: 23rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info-item {
+  gap: 15px;
+  display: grid;
+  grid-template-rows: repeat(3, 20px);
+  grid-template-columns: repeat(3, 7rem);
+}
+
+.container-icon {
+  display: flex;
+  justify-content: end;
+}
+
+.icon {
+  width: 1.3rem;
+}
+
+.span {
+  font-weight: 700;
+  grid-column: 2/-1;
+}
+
+.description-info {
+  grid-column: 2/-1;
+  text-align: start;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.description-container {
+  width: 100%;
+}
+
+.footer{
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.line{
+  width: 4rem;
+  height: 5px;
+  top: 43%;
+  left: 48.5%;
+  background-color: #ee2211;
+  position: fixed;
+  display: block;
+}
